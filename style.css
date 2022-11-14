@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 100%;
+    height: 100vh;
+    padding: 32px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    text-align: center;
+}
+
+h1 {
+    color: aliceblue;
+    font-size: 64px;
+}
+
+p {
+    color: aliceblue;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 8px;
+}
